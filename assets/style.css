@@ -410,3 +410,179 @@ section.what-you-gain h2 {
         max-width: 100%;
     }
 }
+
+.well-dressed {
+    max-width: 900px !important;
+    margin: 0 auto;
+}
+
+h1.title {
+    text-align: center;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 0.2rem;
+    letter-spacing: 1.2px;
+}
+
+p.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+.challenge-card {
+    display: flex;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgb(67 56 202 / 0.12);
+    margin-bottom: 2.8rem;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.challenge-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.challenge-icon {
+    flex: 0 0 120px;
+    background: linear-gradient(135deg, #1da69a 40%, #ffc107 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 1.5rem;
+    transition: background 0.3s ease;
+}
+
+.challenge-content {
+    padding: 1.8rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.challenge-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #1e293b;
+}
+
+.challenge-title i {
+    font-size: 1.8rem;
+    color: #818cf8;
+    transition: color 0.3s ease;
+}
+
+.challenge-desc {
+    color: #475569;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 2.4rem;
+    white-space: pre-line;
+}
+
+.challenge-card:hover .challenge-icon {
+    background: linear-gradient(135deg, #1da69a 80%, #ffc107 100%);
+    color: #e0e7ff;
+}
+
+/* Zig-zag alternating layout */
+.challenge-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.challenge-card:nth-child(even) .challenge-icon {
+    background: linear-gradient(135deg, #1da69a 40%, #ffc107 100%);
+}
+
+.challenge-card:nth-child(even):hover .challenge-icon {
+    background: linear-gradient(135deg, #1da69a 80%, #ffc107 100%);
+    color: #d0f0fd;
+}
+
+@media (max-width: 767px) {
+
+    .challenge-card,
+    .challenge-card:nth-child(even) {
+        flex-direction: column !important;
+    }
+
+    .challenge-icon {
+        flex: none;
+        width: 100%;
+        font-size: 2.6rem;
+        padding: 1rem 0;
+    }
+
+    .challenge-desc {
+        margin-left: 0;
+    }
+
+    .challenge-title {
+        justify-content: center;
+    }
+}
+
+/* Background gradient for contact section */
+.bg-gradient-light {
+    background: linear-gradient(135deg, #e0f2f1 0%, #ffffff 100%);
+}
+
+/* Buttons */
+.btn-gradient-warning {
+    background: linear-gradient(90deg, #ffc107 0%, #ff9800 100%);
+    border: none;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-gradient-warning:hover,
+.btn-gradient-warning:focus {
+    background: linear-gradient(90deg, #ffb300 0%, #f57c00 100%);
+    box-shadow: 0 8px 20px rgba(255, 152, 0, 0.5);
+    color: #fff;
+}
+
+.btn-gradient-warning-outline {
+    background: transparent;
+    border: 2px solid #ffc107;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-gradient-warning-outline:hover,
+.btn-gradient-warning-outline:focus {
+    background: #ffc107;
+    color: #212529;
+    box-shadow: 0 8px 20px rgba(255, 193, 7, 0.6);
+}
+
+.contact-info p {
+    font-size: 1rem;
+}
+
+/* Responsive typography */
+@media (max-width: 576px) {
+
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.6rem 2rem;
+    }
+}
+
+/* Footer */
+.footer-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05em;
+}
