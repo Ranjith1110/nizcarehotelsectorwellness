@@ -586,3 +586,100 @@ p.subtitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.05em;
 }
+
+.page-heading {
+    text-align: center;
+    padding: 60px 20px 20px;
+}
+
+.page-heading h2 {
+    font-weight: 700;
+}
+
+.wellness-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-left: 8px solid #1da69a;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+.wellness-card:hover {
+    transform: translateY(-5px);
+}
+
+.wellness-card h4 {
+    color: #ffaf34;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.wellness-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wellness-card ul li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.wellness-card ul li::before {
+    content: "\f058";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #1da69a;
+}
+
+.limited-offer {
+    background: linear-gradient(to right, #1da69a, #ffaf34);
+    color: #fff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.limited-offer h3 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.limited-offer p {
+    font-size: 1.1rem;
+}
+
+.offer-button {
+    background-color: #fff;
+    color: #1da69a;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    transition: 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.offer-button:hover {
+    background-color: #ffaf34;
+    color: #fff;
+}
+
+.package-icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #ffaf34;
+}
+
+@media (max-width: 768px) {
+    .page-heading h2 {
+        font-size: 1.5rem;
+    }
+}
