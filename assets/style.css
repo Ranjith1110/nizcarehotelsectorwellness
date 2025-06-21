@@ -9,9 +9,14 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/images/coverimg.jpeg');
     background-size: cover;
     background-position: center;
+    height: 70vh;
     color: #fff;
-    padding: 40px 20px 250px;
+    padding: 60px 20px;
     border-radius: 0 0 40px 40px;
+}
+
+.section-header div {
+    padding: 300px 0;
 }
 
 /* Section 2 */
