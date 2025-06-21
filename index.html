@@ -18,63 +18,230 @@
         <div class="container">
             <h1 class="display-5 fw-bold">Wellness Check-In for Hotel Champions</h1>
             <p class="lead mt-3">Healthy Teams = Exceptional Guest Experiences</p>
-            <p class="mt-3">Nizcare partners with hotels across India to provide employee health check-ups that are
+            <!-- <p class="mt-3">Nizcare partners with hotels across India to provide employee health check-ups that are
                 fast, affordable, and stress-free — helping you boost morale, reduce absenteeism, and retain your best
-                people.</p>
+                people.</p> -->
         </div>
     </section>
 
-    <div class="well-dressed py-5">
+    <div class="well-dressed container py-5">
         <h1 class="title display-5">Well-Dressed, Overworked & Overlooked</h1>
         <p class="subtitle">The Unseen Health Challenges in the Hotel Industry</p>
 
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-walking"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🏃‍♀️ Prolonged Standing Hours</h3>
-                <p class="challenge-desc">→ Musculoskeletal pain, varicose veins, fatigue</p>
+        <div class="row">
+            <!-- Management & Executives -->
+            <div class="col-md-4">
+                <div class="category-card h-100">
+                    <!-- Image section -->
+                    <img width="100%"
+                        src="assets/images/owners.jpeg"
+                        alt="Management & Executives" class="img-fluid rounded-top" style="object-fit: cover;">
+                    <div class="category-header mt-4">
+                        <i class="fa-solid fa-user-tie"></i> Management &amp; Executives
+                    </div>
+                    <div class="category-desc">
+                        <b>(GMs, Directors, HODs, Owners)</b>
+                    </div>
+                    <div class="accordion package-accordion" id="managementAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="smartStartHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#smartStart" aria-expanded="false" aria-controls="smartStart">
+                                    <span class="package-icon"><i class="fa-solid fa-seedling"></i></span>
+                                    Chronic Lifestyle Conditions
+                                </button>
+                            </h2>
+                            <div id="smartStart" class="accordion-collapse collapse" aria-labelledby="smartStartHeading"
+                                data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ High blood pressure, diabetes, and cardiac risk from
+                                        sedentary lifestyle and stress.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="leadershipWellnessHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#leadershipWellness" aria-expanded="false"
+                                    aria-controls="leadershipWellness">
+                                    <span class="package-icon"><i class="fa-solid fa-user-shield"></i></span>
+                                    Lack of Preventive Care
+                                </button>
+                            </h2>
+                            <div id="leadershipWellness" class="accordion-collapse collapse"
+                                aria-labelledby="leadershipWellnessHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">
+                                        → Skipped regular checkups due to busy schedules, leading to late diagnoses.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="platinumExecutiveHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#platinumExecutive" aria-expanded="false"
+                                    aria-controls="platinumExecutive">
+                                    <span class="package-icon"><i class="fa-solid fa-crown"></i></span>
+                                    Sleep Deprivation & Work-Life Imbalance
+                                </button>
+                            </h2>
+                            <div id="platinumExecutive" class="accordion-collapse collapse"
+                                aria-labelledby="platinumExecutiveHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ Insomnia, mood swings, and reduced productivity from
+                                        round-the-clock responsibilities.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Supervisors & Admin Staff -->
+            <div class="col-md-4">
+                <div class="category-card h-100">
+                    <!-- Image section -->
+                    <img width="100%"
+                        src="assets/images/reception.jpeg"
+                        alt="Management & Executives" class="img-fluid rounded-top" style="object-fit: cover;">
+                    <div class="category-header mt-4">
+                        <i class="fa-solid fa-users-gear"></i> Supervisors &amp; Admin Staff
+                    </div>
+                    <div class="category-desc">
+                        <b>(Reception, Admin, Floor Supervisors, HR, Front Office)</b>
+                    </div>
+                    <div class="accordion package-accordion" id="managementAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="smartStartHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#smartStart" aria-expanded="false" aria-controls="smartStart">
+                                    <span class="package-icon"><i class="fa-solid fa-seedling"></i></span>
+                                    Mental Stress & Pressure
+                                </button>
+                            </h2>
+                            <div id="smartStart" class="accordion-collapse collapse" aria-labelledby="smartStartHeading"
+                                data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ Burnout, anxiety, and reduced focus from managing
+                                        operations and people.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="leadershipWellnessHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#leadershipWellness" aria-expanded="false"
+                                    aria-controls="leadershipWellness">
+                                    <span class="package-icon"><i class="fa-solid fa-user-shield"></i></span>
+                                    Prolonged Sitting & Poor Ergonomics
+                                </button>
+                            </h2>
+                            <div id="leadershipWellness" class="accordion-collapse collapse"
+                                aria-labelledby="leadershipWellnessHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">
+                                        → Neck stiffness, back pain, and posture-related issues due to desk jobs.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="platinumExecutiveHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#platinumExecutive" aria-expanded="false"
+                                    aria-controls="platinumExecutive">
+                                    <span class="package-icon"><i class="fa-solid fa-crown"></i></span>
+                                    Irregular Meals & Poor Hydration
+                                </button>
+                            </h2>
+                            <div id="platinumExecutive" class="accordion-collapse collapse"
+                                aria-labelledby="platinumExecutiveHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ Digestive problems, fatigue, and weight fluctuations
+                                        due to erratic schedules.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frontline Workers -->
+            <div class="col-md-4">
+                <div class="category-card h-100">
+                    <!-- Image section -->
+                    <img width="100%"
+                        src="assets/images/frontline.jpeg"
+                        alt="Management & Executives" class="img-fluid rounded-top" style="object-fit: cover;">
+                    <div class="category-header mt-4">
+                        <i class="fa-solid fa-people-group"></i> Frontline Workers
+                    </div>
+                    <div class="category-desc">
+                        <b>(Housekeeping, Kitchen Staff, F&B Service, Security, Food Handlers)</b>
+                    </div>
+                    <div class="accordion package-accordion" id="managementAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="smartStartHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#smartStart" aria-expanded="false" aria-controls="smartStart">
+                                    <span class="package-icon"><i class="fa-solid fa-seedling"></i></span>
+                                    Prolonged Standing & Physical Strain
+                                </button>
+                            </h2>
+                            <div id="smartStart" class="accordion-collapse collapse" aria-labelledby="smartStartHeading"
+                                data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ Muscle fatigue, back pain, and varicose veins from long
+                                        hours on foot.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="leadershipWellnessHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#leadershipWellness" aria-expanded="false"
+                                    aria-controls="leadershipWellness">
+                                    <span class="package-icon"><i class="fa-solid fa-user-shield"></i></span>
+                                    Exposure to Heat, Fumes & Chemicals
+                                </button>
+                            </h2>
+                            <div id="leadershipWellness" class="accordion-collapse collapse"
+                                aria-labelledby="leadershipWellnessHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">
+                                        → Respiratory issues, skin irritation, and dehydration from kitchens and
+                                        cleaning agents.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="platinumExecutiveHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#platinumExecutive" aria-expanded="false"
+                                    aria-controls="platinumExecutive">
+                                    <span class="package-icon"><i class="fa-solid fa-crown"></i></span>
+                                    Infection & Hygiene Risks
+                                </button>
+                            </h2>
+                            <div id="platinumExecutive" class="accordion-collapse collapse"
+                                aria-labelledby="platinumExecutiveHeading" data-bs-parent="#managementAccordion">
+                                <div class="accordion-body">
+                                    <div class="package-ideal">→ Higher exposure to infectious diseases due to guest
+                                        interactions and shared spaces.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-fire"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🍳 Exposure to Heat & Kitchen Fumes</h3>
-                <p class="challenge-desc">→ Respiratory discomfort, dehydration, exhaustion</p>
-            </div>
-        </div>
-
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-moon"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🌙 Rotational & Night Shifts</h3>
-                <p class="challenge-desc">→ Sleep disorders, stress, mental fatigue</p>
-            </div>
-        </div>
-
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-hands-helping"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🤝 Guest-Facing Roles</h3>
-                <p class="challenge-desc">→ High infection risk, emotional strain</p>
-            </div>
-        </div>
-
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-broom"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🧼 Chemical & Cleaning Agent Exposure</h3>
-                <p class="challenge-desc">→ Skin conditions, breathing issues</p>
-            </div>
-        </div>
-
-        <div class="challenge-card">
-            <div class="challenge-icon" aria-hidden="true"><i class="fas fa-utensils"></i></div>
-            <div class="challenge-content">
-                <h3 class="challenge-title">🍴 Irregular Eating Patterns</h3>
-                <p class="challenge-desc">→ Digestive issues, poor nutrition, weight fluctuation</p>
-            </div>
-        </div>
     </div>
 
     <section class="gain-section shadow-lg py-5">
@@ -322,7 +489,7 @@
                 <div class="category-card h-100">
                     <div class="category-header">
                         <i class="fa-solid fa-people-group"></i> Frontline Workers
-                    </div>
+                    </div>+
                     <div class="category-desc">
                         <b>Housekeeping, F&amp;B, Security, Food Handlers</b><br />
                         Packages ensure FSSAI compliance, food safety, infection prevention, and fitness.

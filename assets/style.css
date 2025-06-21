@@ -6,7 +6,9 @@ body {
 }
 
 .section-header {
-    background-color: #1da69a;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/images/coverimg.jpeg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 60px 20px;
     border-radius: 0 0 40px 40px;
@@ -411,10 +413,10 @@ section.what-you-gain h2 {
     }
 }
 
-.well-dressed {
+/* .well-dressed {
     max-width: 900px !important;
     margin: 0 auto;
-}
+} */
 
 h1.title {
     text-align: center;
