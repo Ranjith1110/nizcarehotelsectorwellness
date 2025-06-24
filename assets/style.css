@@ -101,6 +101,11 @@ body {
     color: #fff;
 }
 
+.package-accordion .accordion-button {
+    background-color: #1da69a;
+    color: #fff;
+}
+
 .package-accordion .accordion-body {
     background: #f1f5f9;
     color: #4b5563;
@@ -536,6 +541,7 @@ p.subtitle {
     margin-bottom: 40px;
     transition: transform 0.3s;
 }
+
 
 .wellness-card:hover {
     transform: translateY(-5px);
